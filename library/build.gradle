@@ -5,17 +5,13 @@ android {
     buildToolsVersion '23.0.3'
 
     defaultConfig {
-        applicationId "de.n3rditorium.toolbox.library"
         minSdkVersion 19
         targetSdkVersion 23
         versionCode 1
         versionName "0.0.1"
     }
     buildTypes {
-        release {
-            runProguard false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
+
     }
 }
 
